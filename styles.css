@@ -1,0 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header-home {
+  font-weight: 100; /* Thin */
+  font-style: italic; /* Italic */
+}
+.header-title {
+  font-weight: 200; /* Bold */
+  font-size: 4rem; /* Large font size */
+  color: rgb(0, 0, 0); /* Dark color */
+}
+@media screen and (max-width: 400px) {
+  .img-group {
+    display: d-flex; /* Flexbox */
+    flex-direction: column; /* Column layout */
+  }
+}
