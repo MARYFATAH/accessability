@@ -13,52 +13,58 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link href="styles.css" rel="stylesheet" />
     <title>CSS Final Exercise 🚀</title>
   </head>
   <body>
     <header>
       <nav class="fixed-top bg-light">
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <a
-            class="nav-link active"
-            id="nav-home-tab"
-            href="index.html"
-            role="tab"
-            aria-controls="nav-home"
-            aria-selected="true"
-          >
-            Home
-          </a>
-          <a
-            class="nav-link"
-            id="nav-profile-tab"
-            href="gallery.html"
-            role="tab"
-            aria-controls="nav-profile"
-            aria-selected="false"
-          >
-            Gallery
-          </a>
-          <a
-            class="nav-link"
-            id="nav-contact-tab"
-            href="specs.html"
-            role="tab"
-            aria-controls="nav-contact"
-            aria-selected="false"
-          >
-            Specs
-          </a>
-          <a
-            class="nav-link ms-auto"
-            href="#"
-            role="tab"
-            aria-controls="nav-icon"
-            aria-selected="false"
-          >
-            <i class="fa-solid fa-laptop"></i>
-          </a>
+        <div class="container">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a
+              class="nav-link active"
+              id="nav-home-tab"
+              href="index.html"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+            >
+              Home
+            </a>
+            <a
+              class="nav-link"
+              id="nav-profile-tab"
+              href="gallery.html"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+            >
+              Gallery
+            </a>
+            <a
+              class="nav-link"
+              id="nav-contact-tab"
+              href="specs.html"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
+              Specs
+            </a>
+            <a
+              class="nav-link ms-auto"
+              href="#"
+              role="tab"
+              aria-controls="nav-icon"
+              aria-selected="false"
+            >
+              <i class="fas fa-laptop"></i>
+            </a>
+          </div>
         </div>
       </nav>
     </header>
@@ -66,7 +72,7 @@
       class="container mt-5 d-flex flex-column justify-content-center align-items-center"
     >
       <div class="m-3 container text-center">
-        <h1 class="header-title">Technolgy City</h1>
+        <h1 class="header-title">Technology City</h1>
         <h4 class="header-home">Styled by Maryam</h4>
       </div>
       <img
@@ -74,25 +80,28 @@
         src="images/laptop.jpg"
         alt="image of a laptop"
       />
-      <p class="col-8 mt-5 w-100">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt
-        voluptatum fugiat pariatur molestias eveniet esse animi tempora? Tempora
-        magnam quas quae doloremque ipsa officiis voluptate qui quibusdam
-        perferendis eveniet? Inventore, reiciendis eius cum magni deserunt modi?
-        Assumenda natus laboriosam placeat ex quo error aspernatur totam. Iusto
-        molestiae optio quibusdam ut temporibus placeat, beatae necessitatibus
-        maiores accusantium fuga nesciunt ex. Aut reiciendis molestias quos
-        delectus, libero recusandae nulla cumque mollitia nostrum voluptate
-        numquam hic est consectetur saepe perspiciatis aliquid fugit eligendi
-        officia. Recusandae magnam, reprehenderit voluptatem laboriosam omnis
-        dolor reiciendis! Totam ipsum nam illo modi tempora, impedit quia quidem
-        assumenda labore itaque quae accusamus aliquam quis molestias vitae
-        sapiente laudantium temporibus quasi? Rem in eligendi voluptas
-        distinctio aliquid dicta veniam? Quos et dolorum quis minus ad culpa,
-        ratione praesentium. Laborum, totam temporibus iste nesciunt quasi iusto
-        nam eveniet tenetur consectetur, ad alias obcaecati magnam nulla
-        blanditiis reprehenderit voluptatem consequuntur quo!
-      </p>
+      <div class="content w-100 mt-5 col-8">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt
+          voluptatum fugiat pariatur molestias eveniet esse animi tempora?
+          Tempora magnam quas quae doloremque ipsa officiis voluptate qui
+          quibusdam perferendis eveniet? Inventore, reiciendis eius cum magni
+          deserunt modi? Assumenda natus laboriosam placeat ex quo error
+          aspernatur totam. Iusto molestiae optio quibusdam ut temporibus
+          placeat, beatae necessitatibus maiores accusantium fuga nesciunt ex.
+          Aut reiciendis molestias quos delectus, libero recusandae nulla cumque
+          mollitia nostrum voluptate numquam hic est consectetur saepe
+          perspiciatis aliquid fugit eligendi officia. Recusandae magnam,
+          reprehenderit voluptatem laboriosam omnis dolor reiciendis! Totam
+          ipsum nam illo modi tempora, impedit quia quidem assumenda labore
+          itaque quae accusamus aliquam quis molestias vitae sapiente laudantium
+          temporibus quasi? Rem in eligendi voluptas distinctio aliquid dicta
+          veniam? Quos et dolorum quis minus ad culpa, ratione praesentium.
+          Laborum, totam temporibus iste nesciunt quasi iusto nam eveniet
+          tenetur consectetur, ad alias obcaecati magnam nulla blanditiis
+          reprehenderit voluptatem consequuntur quo!
+        </p>
+      </div>
     </main>
     <footer class="bg-light py-4 mt-5">
       <ul class="list-unstyled text-center">
@@ -102,10 +111,6 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/6caab016a1.js"
       crossorigin="anonymous"
     ></script>
   </body>
